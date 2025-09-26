@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Portal da Floresta</title>
+    <style>
+        body {
+            background: #f5f5f5;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        div{
+            text-align: center;
+        }
+ 
+        .titulo-site {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            padding: 10px 0;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+ 
+        .container {
+            width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 0 20px 20px 20px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+ 
+        .menu-lateral {
+            float: left;
+            width: 120px;
+            margin-right: 20px;
+        }
+ 
+        .menu-lateral ul {
+            list-style: none;
+            padding: 0;
+        }
+ 
+        .menu-lateral li {
+            margin-bottom: 10px;
+            font-weight: bold;
+            border-left: 4px solid #bfcfb2;
+            padding-left: 8px;
+        }
+ 
+        .menu-lateral li.active {
+            color: #222;
+        }
+ 
+        .conteudo {
+            float: left;
+            width: 500px;
+        }
+ 
+        .conteudo h1 {
+            font-size: 2em;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+            border-bottom: 3px solid #bfcfb2;
+            display: inline-block;
+            padding-right: 20px;
+        }
+ 
+        .conteudo .autor {
+            float: right;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 10px;
+        }
+ 
+        .conteudo .resumo {
+            font-style: italic;
+            color: #444;
+            margin-bottom: 10px;
+        }
+ 
+        .conteudo img {
+            float: left;
+            width: 220px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 16px;
+            margin-bottom: 10px;
+        }
+ 
+        .conteudo p {
+            text-align: justify;
+            font-size: 1em;
+            color: #222;
+        }
+ 
+        .lateral-noticias {
+            float: right;
+            width: 200px;
+        }
+ 
+        .noticia {
+            background: #fafafa;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 16px;
+            padding: 10px;
+        }
+ 
+        .noticia h2 {
+            font-size: 1.1em;
+            color: #222;
+            margin: 0 0 5px 0;
+            font-weight: bold;
+        }
+ 
+        .noticia .data {
+            font-size: 0.9em;
+            color: #bfcfb2;
+        }
+ 
+        .noticia .resumo-noticia {
+            font-size: 0.98em;
+            color: #444;
+            margin-bottom: 6px;
+        }
+ 
+        .noticia a {
+            color: #b22222;
+            font-size: 0.98em;
+            text-decoration: none;
+        }
+ 
+        .noticia a:hover {
+            text-decoration: underline;
+        }
+ 
+        .rodape {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            font-size: 1em;
+            padding: 10px 0;
+            margin-top: 30px;
+            letter-spacing: 1px;
+        }
+ 
+        .clear {
+            clear: both;
+        }
+ 
+        @media (max-width: 950px) {
+            .container {
+                width: 98%;
+                padding: 0 2vw 20px 2vw;
+            }
+        }
+ 
+        @media (max-width: 700px) {
+ 
+            .menu-lateral,
+            .lateral-noticias,
+            .conteudo {
+                float: none;
+                width: 100%;
+                margin: 0;
+            }
+ 
+            .conteudo img {
+                float: none;
+                display: block;
+                margin: 0 auto 10px auto;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <div>
+        <img src="vista1.JPG" alt="Floresta">
+        <img src="vista4.JPG" alt="Floresta">
+        <img src="vista5.JPG" alt="Floresta">
+        <img src="vista2.JPG" alt="Floresta">
+        <img src="vista3.JPG" alt="Floresta">
+    </div>
+    <div class="titulo-site">Portal da Floresta</div>
+    <div class="container">
+        <div class="menu-lateral">
+            <ul>
+                <li class="active">link 1</li>
+                <li>link 2</li>
+                <li>link 3</li>
+                <li>link 4</li>
+                <li>link 5</li>
+            </ul>
+        </div>
+        <div class="conteudo">
+            <span class="autor">autor e data</span>
+            <h1>Título Principal</h1>
+            <div class="resumo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae varius nunc.
+            </div>
+            <img src="escada.jpg" alt="Interior Floresta">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae varius nunc. Aliquam sed nulla
+                urna, porta porttitor libero. Duis molestie rhoncus neque, quis posuere turpis2is congue non. In mattis,
+                turpis ac rhoncus ultrices, nisl lacus fermentum lectus, in vulputate purus erat in nisl. Phasellus
+                tristique, nunc et eleifend viverra, felis dolor sollicitudin nunc, et semper nisi magna id elit. Sed
+                nulla turpis, tempus vitae rhoncus et, iaculis at est. Aliquam erat volutpat. Nullam orci eros, volutpat
+                in congue vitae, ornare ut felis. Sed venenatis lorem non arcu venenatis at placerat leo ullamcorper. Ut
+                imperdiet pharetra mi ac sagittis. Mauris a nibh massa. Morbi consequat faucibus velit vel viverra.
+                Donec eget arcu eros. Mauris eu rutrum accumsan nec et ipsum. Praesent viverra est at lorem accumsan
+                interdum interdum augue.
+            </p>
+        </div>
+        <div class="lateral-noticias">
+            <div class="noticia">
+                <h2>notícia1</h2>
+                <span class="data">00h00 / 01.01</span>
+                <div class="resumo-noticia">
+                    Lorem ipsum dolor sit amet. Nulla vitae varius nunc.
+                </div>
+                <a href="#">» leia mais</a>
+            </div>
+            <div class="noticia">
+                <h2>notícia 2</h2>
+                <span class="data">00h00 / 01.01</span>
+                <div class="resumo-noticia">
+                    Aenean ut massa et erat sagittis fringilla sed nibh. Lacinia volutpat consectetur.
+                </div>
+                <a href="#">» outras</a>
+            </div>
+            <div class="noticia">
+                <h2>notícia 3</h2>
+                <span class="data">00h00 / 01.01</span>
+                <div class="resumo-noticia">
+                    Fusce tempor sapien at nunc euismod rhoncus.
+                </div>
+                <a href="#">» siga o exemplo</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="rodape">
+        rua vitae rhoncus, 123 • são paulo, sp • 01234-000 • 11 1234.5678
+    </div>
+</body>
+ 
+</html>
